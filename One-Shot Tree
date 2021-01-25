@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-01-25T11:04:57.082Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="QiZoOdYRE3gBKoXdxWel" version="14.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-25T11:07:46.475Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="y7T7J6uTh84KjXOnf_rz" version="14.2.7" type="github">
   <diagram id="wWqiXx-FyiuHiOsST96P" name="Page-1">
-    <mxGraphModel dx="1470" dy="982" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2200" pageHeight="1500" math="1" shadow="0">
+    <mxGraphModel dx="735" dy="443" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2200" pageHeight="1500" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -482,7 +482,7 @@
         <mxCell id="EPbvaWULSAUKqGDtKGyO-13" value="\(\omega_0\)" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFFFFF;strokeColor=#B3B3B3;" vertex="1" parent="EPbvaWULSAUKqGDtKGyO-9">
           <mxGeometry x="10" y="29" width="36" height="36" as="geometry" />
         </mxCell>
-        <mxCell id="EPbvaWULSAUKqGDtKGyO-48" value="\(s(\mathbf{x};\omega_2)=[0.9 ,0.1]^t\)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="EPbvaWULSAUKqGDtKGyO-2">
+        <mxCell id="EPbvaWULSAUKqGDtKGyO-48" value="\(s(\mathbf{x};\omega_2)=[0.9 ,0.1]^T\)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="EPbvaWULSAUKqGDtKGyO-2">
           <mxGeometry x="145" y="190" width="163" height="20" as="geometry" />
         </mxCell>
         <mxCell id="EPbvaWULSAUKqGDtKGyO-14" value="" style="group" vertex="1" connectable="0" parent="1">
@@ -506,7 +506,7 @@
         <mxCell id="EPbvaWULSAUKqGDtKGyO-19" value="\(\omega_1\)" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFFFFF;strokeColor=#B3B3B3;" vertex="1" parent="EPbvaWULSAUKqGDtKGyO-16">
           <mxGeometry x="2.842170943040401e-14" width="36" height="36" as="geometry" />
         </mxCell>
-        <mxCell id="EPbvaWULSAUKqGDtKGyO-46" value="\(s(\mathbf{x};\omega_0)=[0.6, 0.4]^t\)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="EPbvaWULSAUKqGDtKGyO-14">
+        <mxCell id="EPbvaWULSAUKqGDtKGyO-46" value="\(s(\mathbf{x};\omega_0)=[0.6, 0.4]^T\)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="EPbvaWULSAUKqGDtKGyO-14">
           <mxGeometry x="80" width="163" height="20" as="geometry" />
         </mxCell>
         <mxCell id="EPbvaWULSAUKqGDtKGyO-20" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=block;endFill=1;strokeWidth=1;" edge="1" parent="1">
@@ -557,7 +557,7 @@
             <mxPoint x="620" y="1280" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="EPbvaWULSAUKqGDtKGyO-31" value="\(s(\mathbf{x}; \omega_i) = [g(\mathbf{x}; \omega_i), 1 -g(\mathbf{x}; \omega_i)&lt;br&gt;]^T\)&lt;br&gt;\(\text{where } \omega_i \in \mathbb{R}^{d+1} \text{ and } g(\mathbf{x}; \omega_i) = \frac{1}{1 + \exp{(-\omega_i^T \mathbf{x}})}&lt;br&gt;\)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="EPbvaWULSAUKqGDtKGyO-31" value="\(s(\mathbf{x}; \omega_i) = [g(\mathbf{x}; \omega_i), 1 -g(\mathbf{x}; \omega_i)&lt;br&gt;]^T\)&lt;br&gt;\(\text{where } \omega_i \in \mathbb{R}^{d+1} \text{ and } g(\mathbf{x}; \omega_i) = \frac{1}{1 + \exp{(-\omega_i^T \mathbf{x}})}&lt;br&gt;\)" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="375" y="1070" width="280" height="20" as="geometry" />
         </mxCell>
         <mxCell id="EPbvaWULSAUKqGDtKGyO-33" value="\(\upsilon_3\)" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#B3B3B3;fillColor=#B3B3B3;" vertex="1" parent="1">
@@ -581,7 +581,7 @@
         <mxCell id="EPbvaWULSAUKqGDtKGyO-37" value="\(\mathbf{x}\)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="340" y="1040" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="EPbvaWULSAUKqGDtKGyO-47" value="\(s(\mathbf{x};\omega_1)=[0.4, 0.6]^t\)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="EPbvaWULSAUKqGDtKGyO-47" value="\(s(\mathbf{x};\omega_1)=[0.4, 0.6]^T\)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="147" y="1260" width="163" height="20" as="geometry" />
         </mxCell>
       </root>
